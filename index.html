@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="ig: @harrnish / @codegridweb" />
+    <title>Full Stack JS - First Webpage</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ANIMEJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Cormorant:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- IONICONS -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <!-- SCROLL REVEAL ANIMATIONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css"
+    />
+    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+
+    <!-- SIMPLE PARALLAX -->
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+  </head>
+  <body>
+    <!-- HERO SECTION -->
+    <a name="home"></a>
+    <div class="wrapper">
+      <section class="hero-section">
+        <!-- LOGO -->
+        <div class="hero-logo">
+          TT
+        </div>
+
+        <!-- TOGGLE BUTTON -->
+        <div class="menu-toggle">
+          <ion-icon name="menu"></ion-icon>
+        </div>
+
+        <!-- SOCIAL MEDIA ICONS -->
+        <div class="media">
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/tudor.toma/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            </li>
+            <li>
+              <a href="mailto:petrutudortoma@gmail.com"><ion-icon name="logo-google"></ion-icon></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/tudorpetrutoma/"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- VIEW PHOTOS LINK -->
+          <div class="view-photos">
+          <ul>
+            <li class="wow fadeInUp" data-wow-delay="0.9s">
+              <a href="https://open.spotify.com/artist/06s35sbFfZJUEwFjAaZfiW" target="_blank">Music</a>
+            </li>
+            <li class="wow fadeInUp" data-wow-delay="0.6s">
+              <a href="https://store.steampowered.com/app/570/Dota_2/" target="_blank">Game</a>
+            </li>
+            <li class="wow fadeInUp" data-wow-delay="0.2s">
+              <a href="https://www.imdb.com/title/tt8367814/?ref_=nm_flmg_act_2" target="_blank">Film</a>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- HERO-IMAGE -->
+        <div class="hero-img">
+          <img src="hero-bg.jpg" class="hero-img-parallax" />
+        </div>
+
+        <!-- HERO-TITLE -->
+        <div class="hero-title">
+          <h1>Tudor Toma</h1>
+        </div>
+        <div class="overlay">
+          <div class="close-btn">
+            <ion-icon name="close"></ion-icon>
+          </div>
+          <div class="menu">
+            <ul>
+              <li>
+                <a href="#info">Info</a>
+              </li>
+              <li>
+                <a href="#hobby">Hobby</a>
+              </li>
+              <li>
+                <a href="#expectation">Expectation</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <a name ="info" ></a>
+      <section class="view-info">
+        <div class="container">
+          <div class="row">
+            <div class="about-heading col-lg-10">
+              <h1 class="wow fadeInUp" data-wow-delay="0.2s">TT? Who this?</h1>
+            </div>
+            <div class="about-content col-lg-10">
+              <h3 class="wow fadeInUp" data-wow-delay="0.3s">
+                Born in raised in Bacau, studied communication and advertising, worked in marketing and advertising. I developed a passion for front end development.
+              </h3>
+              <p class="wow fadeInUp" data-wow-delay="0.4s">
+                Since May 2020 I started  my journey in the world of front end development, using platforms like freecodecamp.org, teamtreehouse.com, udemy.com and youtube.
+                
+              </p>
+              <p class="wow fadeInUp" data-wow-delay="0.5s">
+                My passion for marketing and advertising did not faded out and one day, I hope that I could make use of my marcomm skills combined with my front end skills.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <a name="hobby"></a>
+      <section class="hobby-section">
+        <div class="container-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="arrow-down">
+                  <ion-icon
+                    name="arrow-down"
+                    class="wow fadeInUp"
+                    data-wow-delay="0.2s"
+                  ></ion-icon>
+                </div>
+              </div>
+              <div class="hobby-heading col-lg-6">
+                <h1 class="wow fadeInUp" data-wow-delay="0.3s">HOBBY</h1>
+                <p class="wow fadeInUp" data-wow-delay="0.4s">
+                  3 years have passed since I was invited for the first time to play some sort of indoors tenis.
+                  Since then, this sport has become my passion and I practice it with every occasion I get.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="hobby">
+            <div class="row hobby-row">
+              <div class="hobby hobby-1 col-lg-12">
+                <img
+                  src="hobby-1.jpg"
+                  class="hobby-1-img hobby-img img-responsive fit-image"
+                />
+              </div>
+            <div class="row hobby-row">
+              <div class="hobby hobby-3 col-lg-12">
+                <img
+                  src="hobby-3.jpg"
+                  class="hobby-3-img hobby-img img-responsive fit-image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <a name="expectation"></a>
+      <section class="social-media">
+        <div class="container">
+          <div class="row">
+            <div class="sm-heading col-lg-8">
+              <h1 class="wow fadeInUp" data-wow-delay="0.2s">Expectation</h1>
+            </div>
+            <div class="sm-content col-lg-10">
+              <h3 class="wow fadeInUp" data-wow-delay="0.4s">
+                Get an accurate overview on JavaScript ecosystem
+              </h3>
+              <p class="wow fadeInUp" data-wow-delay="0.5s">
+                I would like to begin as fast as possible to work on real projects and discusse the real life approach on things.
+              </p>
+              <p class="wow fadeInUp" data-wow-delay="0.6s">
+                I would also like to be thought how use git as continuous integration for those projects. As I mentioned in the first rushes, I think that would be great and super useful to have a rush dedicated to real life interview situations and questions.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-12 text-left">
+            <div class="social-icons">
+              <ul>
+                <li class="wow fadeInUp" data-wow-delay="0.7s">
+                  <a href="#">never</a>
+                </li>
+                <li class="wow fadeInUp" data-wow-delay="0.8s">
+                  <a href="#">stop</a>
+                </li>
+                <li class="wow fadeInUp" data-wow-delay="0.9s">
+                  <a href="#">believing</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
